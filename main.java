@@ -8,11 +8,14 @@ public class main{
         String name=sc.next();
         System.out.print("학번을 입력하세요: ");
         int number=sc.nextInt();
+        System.out.print("학과를 입력하세요: ");
+        String major=sc.next();
 
         System.out.println("");
         System.out.println("<출력>");
         
-        System.out.println("이름을 입력하세요:"+name);
-        System.out.println("학번을 입력하세요:"+number);
+        System.out.println("이름:"+name);
+        System.out.println("학번:"+number);
+        System.out.println("학과:"+major);
     }
 }
